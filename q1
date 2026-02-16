@@ -1,0 +1,7 @@
+write your function for the problem statement here
+team name - {future flux} 
+def calculate_total_bill(amount, tip_percent):
+    amount = float(amount)
+    tip_percent = float(tip_percent)
+    total = amount + (amount * tip_percent / 100)
+    return round(total, 2)
